@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTURE</title>
+    <link rel="stylesheet" href="personal.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Home</li>
+        </ul>
+        <img src="./img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful Word</h2>
+            <div class="line"></div>
+            <h1>A WONDERFULL GIFT</h1>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </header>
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+        <div class="col">
+         <img src="./img/img1.png" alt="">  
+         <h4>MOUNT FUJI Camp Trek</h4>
+         <p>Rising to 12,388 feet (3,776 metres), Mount Fuji is the tallest mountain in Japan and is known for its graceful conical form. It is the country's sacred symbol, and temples and shrines are located around and on the volcano</p>
+         <a href="#" class="ctn">Learn More</a>
+        </div> 
+        <div class="col">
+            <img src="./img/img2.png" alt="">  
+            <h4>Walking holidays</h4>
+            <p>Japan has many walking holidays, including pilgrimage walks, historic trails, and other walking tours. 
+            </p>
+            <a href="#" class="ctn">Learn More</a>
+           </div> 
+
+        </div>
+    </section>
+
+<section class="explore">
+<div class="explore-content">
+<h1>EXPLORE THE WORLD</h1>
+<div class="line"></div>
+<p>China is a country that seamlessly weaves together its rich history, stunning geography, vibrant culture, and modern way of life</p>
+<a href="#" class="ctn">Learn More</a>
+</div>
+</section>
+<section class="tours">
+    <div class="row">
+        <div class="col content-col">
+            <h1>UPCOMING TOURS & DESTINATION</h1>
+            <div class="line"></div>
+            <p>Some say the best time to visit China is during spring (March to May) and autumn (September to November) when the scenery is vibrant with cherry blossoms and red leaves. Some recommend visiting Tokyo, Kyoto, or Osaka for first-time visitors, as these cities offer a mix of traditional and contemporary Japanese culture.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col image-col">
+            <div class="image-gallery">
+                <img src="./img/fuji.jpg" alt="">
+                <img src="./img/japan.jpg" alt="">
+                <img src="./img/sum.jpg" alt="">
+                <img src="./img/tokyo.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="footer">
+<p>123 Kicukiro Avenue, Kimihurura, Kigali |phone: 250-793-455-643| Email: patienceumuringa@gmail.com </p>
+<p>2024 Outdoor Adventure</p>
+</section>
+    <script>
+    const menuBtn = document.queryselector('.menu.btn')
+    const navlinks = document.queryselector('.nav-links')
+
+    menuBtn.addEventListener('click',()=>{
+     navlinks.classlist.toogle('mobile-menu')
+    })
+    </script>
+</body>
+</html> 

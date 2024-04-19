@@ -1,0 +1,30 @@
+.new-paragraph{
+    color: red;
+}
+.add-to-cart{
+width: 100px;
+height: 30px;
+background-color: rgb(245, 13, 13);  
+border: 1px;
+border-radius: 5px;
+color: white    ;
+}
+.second-paragraph{
+ width: 80px;
+ height: 30px;
+ background-color: rgb(20, 153, 236);
+ border: 10px;
+ color: white;
+border-radius: 20px;
+}
+.add-join{
+    background-color: white;
+   border-color: rgb(41, 118, 211);
+   border-style: solid;
+   border-width: 1px;
+   color: rgb(41, 118, 211);
+   height: 32px;
+   width: 50px;
+   border-radius: 2px;
+   cursor: pointer;
+}
